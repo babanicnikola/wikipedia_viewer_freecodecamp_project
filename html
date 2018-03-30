@@ -1,0 +1,36 @@
+<head>
+	<title> WikiView </title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+</head>
+
+<body style="background-color: #2f4f4f;color: #f5f5f5; margin-top: 40px;">
+	<img class="img-responsive" src="https://vignette.wikia.nocookie.net/logopedia/images/b/b3/Wikipedia-logo-v2-en.svg/revision/latest?cb=20100519143323"/>
+	<hr>
+	<br>
+	<br>
+	<br>
+	<div class="container">
+		<hr>
+		<input type="button" value="Random article" id="b1" onclick="random();"/>
+		<hr>
+		<div class="search">
+			<input type="text" id="e1" placeholder="Search for article" required>
+			<img class="img-responsive" id="s1" onclick="searchWiki();" src="https://fcpp.org/sites/default/files/images/search-icon.png"/>
+		</div>
+		
+		<hr>
+		<div id="results">
+		</div>
+	</div>
+</body>
